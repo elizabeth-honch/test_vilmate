@@ -1,0 +1,25 @@
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+.indicator p {
+  position: relative;
+}
+
+.indicator p span {
+  display: inline-block;
+  position: absolute;
+  margin-left: 15px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.indicator p span.green {
+  background-color: green;
+}
+
+.indicator p span.red {
+  background-color: red;
+}

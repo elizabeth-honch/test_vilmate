@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Test</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="my-3">
+        <button type="button" class="btn btn-info"onclick="generateAndStopObjects()">Кнопка 1 - для запуска и остановки генератора</button>
+        <button type="button" class="btn btn-info" onclick="setCounters()">Кнопка 2 - для запуска и остановки получателя</button>
+        <button type="button" class="btn btn-info" onclick="resetCounters()">Кнопка 3 - для обнуления счетчиков</button>  
+      </div>
+      
+      <div class="my-5 indicator">
+        <p>Индикатор 1 - <span class="indicator__one red"></span></p>
+        <p>Индикатор 2 - <span class="indicator__two red"></span></p>
+        <p>Индикатор 3 - <span class="indicator__three red"></span></p>
+      </div>
+
+      <div>
+        <p>Счетчики:</p>
+        <p>Счетчик 1 - <span class="counter__one"></span></p>
+        <p>Счетчик 2 - <span class="counter__two"></span></p>
+        <p>Счетчик 3 - <span class="counter__three"></span></p>
+      </div>
+    </main>
+  </body>
+</html>
